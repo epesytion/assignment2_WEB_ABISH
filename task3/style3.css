@@ -13,21 +13,3 @@
 .logo:hover{
     transform: rotateZ(20deg);
 }
-
-.caption {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-
-    width: 100%;
-    padding: 10px;
-
-    background-color: rgba(0, 0, 0, 0.6);
-    color: white;
-
-    box-sizing: border-box;
-
-    opacity: 0;
-    transition: 0.3s;
-}
-
