@@ -1,0 +1,25 @@
+.logo{
+    width: 70px;
+    height: 70px;
+    align-self: center;
+}
+.container{
+    display: flex;
+    background-color: #808080;
+    flex-wrap: wrap;
+    padding: 5px;
+    gap: 15px;
+    align-items: stretch;
+}
+.item{
+    flex: 1;
+    background-color: aquamarine;
+    margin: 5px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+}
+.item:hover {
+    transform: translateY(-5px);
+}

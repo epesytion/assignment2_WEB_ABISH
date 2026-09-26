@@ -1,0 +1,22 @@
+header{
+    display: flex;
+    background-color: #808080;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: center;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+    align-self: center;
+
+}
+.links{
+    font-size: 6px;
+    align-self: center;
+}
+.card{
+    background-color: rgb(228, 167, 103);
+    width: 20px;
+    height: 20px;
+}
