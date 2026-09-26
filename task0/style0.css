@@ -3,17 +3,17 @@ header{
     background-color: #808080;
     flex-wrap: wrap;
     padding: 5px;
-    justify-content: center;
+    justify-content: space-between;
 }
 .logo{
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
     align-self: center;
 
 }
 .links{
-    font-size: 6px;
-    align-self: center;
+    align-items: center;
+    font-size: 10px;
 }
 .card{
     background-color: rgb(228, 167, 103);

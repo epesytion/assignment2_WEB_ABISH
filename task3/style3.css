@@ -1,0 +1,33 @@
+.container{
+    margin-top: 100px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+    gap: 20px
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.logo:hover{
+    transform: rotateZ(20deg);
+}
+
+.caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    padding: 10px;
+
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+
+    box-sizing: border-box;
+
+    opacity: 0;
+    transition: 0.3s;
+}
+
